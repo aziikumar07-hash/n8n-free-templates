@@ -1,0 +1,18 @@
+- name: bug
+  color: d73a4a
+  description: Something is broken
+- name: workflow
+  color: 0e8a16
+  description: Workflow template request or update
+- name: documentation
+  color: 0075ca
+  description: Documentation improvements
+- name: provider
+  color: 5319e7
+  description: Provider-specific issue
+- name: good first issue
+  color: 7057ff
+  description: Good for new contributors
+- name: help wanted
+  color: 008672
+  description: Maintainers are looking for help
