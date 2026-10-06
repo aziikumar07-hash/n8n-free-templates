@@ -1,0 +1,1930 @@
+{
+  "generated_at": "2026-10-06",
+  "status_labels": [
+    "ready",
+    "needs-configuration",
+    "experimental",
+    "not-tested",
+    "deprecated"
+  ],
+  "workflows": [
+    {
+      "name": "Auto-tag Blog Posts",
+      "category": "AI_ML",
+      "relative_path": "AI_ML/auto-tag_blog_posts.json",
+      "status": "needs-configuration",
+      "compatibility": {
+        "n8n": "1.x (verify in your environment)"
+      },
+      "providers": [
+        "Anthropic",
+        "Google Sheets",
+        "OpenAI",
+        "Slack",
+        "Supabase"
+      ],
+      "required_credentials": [
+        "Anthropic",
+        "Google Sheets",
+        "OpenAI",
+        "Slack",
+        "Supabase"
+      ],
+      "documentation_path": "docs/workflows/ai_ml/auto-tag_blog_posts.md",
+      "source": {
+        "type": "adapted-from-upstream",
+        "repository": "https://github.com/wassupjay/n8n-free-templates",
+        "notes": "Imported/adapted templates; upstream repository currently has no declared GitHub license metadata."
+      },
+      "tested_date": null,
+      "risk_flags": [
+        "ai-generated-output"
+      ],
+      "webhook_paths": [
+        "auto-tag-blog-posts"
+      ],
+      "node_count": 12
+    },
+    {
+      "name": "Customer Sentiment Analysis",
+      "category": "AI_ML",
+      "relative_path": "AI_ML/customer_sentiment_analysis.json",
+      "status": "needs-configuration",
+      "compatibility": {
+        "n8n": "1.x (verify in your environment)"
+      },
+      "providers": [
+        "Anthropic",
+        "Cohere",
+        "Google Sheets",
+        "Pinecone",
+        "Slack"
+      ],
+      "required_credentials": [
+        "Anthropic",
+        "Cohere",
+        "Google Sheets",
+        "Pinecone",
+        "Slack"
+      ],
+      "documentation_path": "docs/workflows/ai_ml/customer_sentiment_analysis.md",
+      "source": {
+        "type": "adapted-from-upstream",
+        "repository": "https://github.com/wassupjay/n8n-free-templates",
+        "notes": "Imported/adapted templates; upstream repository currently has no declared GitHub license metadata."
+      },
+      "tested_date": null,
+      "risk_flags": [
+        "may-process-pii",
+        "ai-generated-output"
+      ],
+      "webhook_paths": [
+        "customer-sentiment-analysis"
+      ],
+      "node_count": 12
+    },
+    {
+      "name": "Daily Content Ideas",
+      "category": "AI_ML",
+      "relative_path": "AI_ML/daily_content_ideas.json",
+      "status": "needs-configuration",
+      "compatibility": {
+        "n8n": "1.x (verify in your environment)"
+      },
+      "providers": [
+        "Cohere",
+        "Google Sheets",
+        "OpenAI",
+        "Slack",
+        "Supabase"
+      ],
+      "required_credentials": [
+        "Cohere",
+        "Google Sheets",
+        "OpenAI",
+        "Slack",
+        "Supabase"
+      ],
+      "documentation_path": "docs/workflows/ai_ml/daily_content_ideas.md",
+      "source": {
+        "type": "adapted-from-upstream",
+        "repository": "https://github.com/wassupjay/n8n-free-templates",
+        "notes": "Imported/adapted templates; upstream repository currently has no declared GitHub license metadata."
+      },
+      "tested_date": null,
+      "risk_flags": [
+        "ai-generated-output"
+      ],
+      "webhook_paths": [
+        "daily-content-ideas"
+      ],
+      "node_count": 12
+    },
+    {
+      "name": "Image Captioning",
+      "category": "AI_ML",
+      "relative_path": "AI_ML/image_captioning.json",
+      "status": "needs-configuration",
+      "compatibility": {
+        "n8n": "1.x (verify in your environment)"
+      },
+      "providers": [
+        "Anthropic",
+        "Google Sheets",
+        "OpenAI",
+        "Slack",
+        "Weaviate"
+      ],
+      "required_credentials": [
+        "Anthropic",
+        "Google Sheets",
+        "OpenAI",
+        "Slack",
+        "Weaviate"
+      ],
+      "documentation_path": "docs/workflows/ai_ml/image_captioning.md",
+      "source": {
+        "type": "adapted-from-upstream",
+        "repository": "https://github.com/wassupjay/n8n-free-templates",
+        "notes": "Imported/adapted templates; upstream repository currently has no declared GitHub license metadata."
+      },
+      "tested_date": null,
+      "risk_flags": [
+        "ai-generated-output"
+      ],
+      "webhook_paths": [
+        "image-captioning"
+      ],
+      "node_count": 12
+    },
+    {
+      "name": "Product Description Generator",
+      "category": "AI_ML",
+      "relative_path": "AI_ML/product_description_generator.json",
+      "status": "needs-configuration",
+      "compatibility": {
+        "n8n": "1.x (verify in your environment)"
+      },
+      "providers": [
+        "Anthropic",
+        "Cohere",
+        "Google Sheets",
+        "Pinecone",
+        "Slack"
+      ],
+      "required_credentials": [
+        "Anthropic",
+        "Cohere",
+        "Google Sheets",
+        "Pinecone",
+        "Slack"
+      ],
+      "documentation_path": "docs/workflows/ai_ml/product_description_generator.md",
+      "source": {
+        "type": "adapted-from-upstream",
+        "repository": "https://github.com/wassupjay/n8n-free-templates",
+        "notes": "Imported/adapted templates; upstream repository currently has no declared GitHub license metadata."
+      },
+      "tested_date": null,
+      "risk_flags": [
+        "ai-generated-output"
+      ],
+      "webhook_paths": [
+        "product-description-generator"
+      ],
+      "node_count": 12
+    },
+    {
+      "name": "Resume Screening",
+      "category": "AI_ML",
+      "relative_path": "AI_ML/resume_screening.json",
+      "status": "needs-configuration",
+      "compatibility": {
+        "n8n": "1.x (verify in your environment)"
+      },
+      "providers": [
+        "Cohere",
+        "Google Sheets",
+        "OpenAI",
+        "Slack",
+        "Weaviate"
+      ],
+      "required_credentials": [
+        "Cohere",
+        "Google Sheets",
+        "OpenAI",
+        "Slack",
+        "Weaviate"
+      ],
+      "documentation_path": "docs/workflows/ai_ml/resume_screening.md",
+      "source": {
+        "type": "adapted-from-upstream",
+        "repository": "https://github.com/wassupjay/n8n-free-templates",
+        "notes": "Imported/adapted templates; upstream repository currently has no declared GitHub license metadata."
+      },
+      "tested_date": null,
+      "risk_flags": [
+        "may-process-pii",
+        "ai-generated-output"
+      ],
+      "webhook_paths": [
+        "resume-screening"
+      ],
+      "node_count": 12
+    },
+    {
+      "name": "Summarize Customer Emails",
+      "category": "AI_ML",
+      "relative_path": "AI_ML/summarize_customer_emails.json",
+      "status": "needs-configuration",
+      "compatibility": {
+        "n8n": "1.x (verify in your environment)"
+      },
+      "providers": [
+        "Anthropic",
+        "Cohere",
+        "Google Sheets",
+        "Slack",
+        "Weaviate"
+      ],
+      "required_credentials": [
+        "Anthropic",
+        "Cohere",
+        "Google Sheets",
+        "Slack",
+        "Weaviate"
+      ],
+      "documentation_path": "docs/workflows/ai_ml/summarize_customer_emails.md",
+      "source": {
+        "type": "adapted-from-upstream",
+        "repository": "https://github.com/wassupjay/n8n-free-templates",
+        "notes": "Imported/adapted templates; upstream repository currently has no declared GitHub license metadata."
+      },
+      "tested_date": null,
+      "risk_flags": [
+        "may-process-pii",
+        "ai-generated-output"
+      ],
+      "webhook_paths": [
+        "summarize-customer-emails"
+      ],
+      "node_count": 12
+    },
+    {
+      "name": "Ticket Urgency Classification",
+      "category": "AI_ML",
+      "relative_path": "AI_ML/ticket_urgency_classification.json",
+      "status": "needs-configuration",
+      "compatibility": {
+        "n8n": "1.x (verify in your environment)"
+      },
+      "providers": [
+        "Anthropic",
+        "Cohere",
+        "Google Sheets",
+        "Pinecone",
+        "Slack"
+      ],
+      "required_credentials": [
+        "Anthropic",
+        "Cohere",
+        "Google Sheets",
+        "Pinecone",
+        "Slack"
+      ],
+      "documentation_path": "docs/workflows/ai_ml/ticket_urgency_classification.md",
+      "source": {
+        "type": "adapted-from-upstream",
+        "repository": "https://github.com/wassupjay/n8n-free-templates",
+        "notes": "Imported/adapted templates; upstream repository currently has no declared GitHub license metadata."
+      },
+      "tested_date": null,
+      "risk_flags": [
+        "ai-generated-output"
+      ],
+      "webhook_paths": [
+        "ticket-urgency-classification"
+      ],
+      "node_count": 12
+    },
+    {
+      "name": "Translate Form Submissions",
+      "category": "AI_ML",
+      "relative_path": "AI_ML/translate_form_submissions.json",
+      "status": "needs-configuration",
+      "compatibility": {
+        "n8n": "1.x (verify in your environment)"
+      },
+      "providers": [
+        "Google Sheets",
+        "OpenAI",
+        "Slack",
+        "Supabase"
+      ],
+      "required_credentials": [
+        "Google Sheets",
+        "OpenAI",
+        "Slack",
+        "Supabase"
+      ],
+      "documentation_path": "docs/workflows/ai_ml/translate_form_submissions.md",
+      "source": {
+        "type": "adapted-from-upstream",
+        "repository": "https://github.com/wassupjay/n8n-free-templates",
+        "notes": "Imported/adapted templates; upstream repository currently has no declared GitHub license metadata."
+      },
+      "tested_date": null,
+      "risk_flags": [
+        "ai-generated-output"
+      ],
+      "webhook_paths": [
+        "translate-form-submissions"
+      ],
+      "node_count": 12
+    },
+    {
+      "name": "Voice Note Transcription",
+      "category": "AI_ML",
+      "relative_path": "AI_ML/voice_note_transcription.json",
+      "status": "needs-configuration",
+      "compatibility": {
+        "n8n": "1.x (verify in your environment)"
+      },
+      "providers": [
+        "Cohere",
+        "Google Sheets",
+        "OpenAI",
+        "Slack",
+        "Weaviate"
+      ],
+      "required_credentials": [
+        "Cohere",
+        "Google Sheets",
+        "OpenAI",
+        "Slack",
+        "Weaviate"
+      ],
+      "documentation_path": "docs/workflows/ai_ml/voice_note_transcription.md",
+      "source": {
+        "type": "adapted-from-upstream",
+        "repository": "https://github.com/wassupjay/n8n-free-templates",
+        "notes": "Imported/adapted templates; upstream repository currently has no declared GitHub license metadata."
+      },
+      "tested_date": null,
+      "risk_flags": [
+        "may-process-pii",
+        "ai-generated-output"
+      ],
+      "webhook_paths": [
+        "voice-note-transcription"
+      ],
+      "node_count": 12
+    },
+    {
+      "name": "Commodity Price Tracker",
+      "category": "Agriculture",
+      "relative_path": "Agriculture/commodity_price_tracker.json",
+      "status": "needs-configuration",
+      "compatibility": {
+        "n8n": "1.x (verify in your environment)"
+      },
+      "providers": [
+        "Anthropic",
+        "Cohere",
+        "Google Sheets",
+        "Redis"
+      ],
+      "required_credentials": [
+        "Anthropic",
+        "Cohere",
+        "Google Sheets",
+        "Redis"
+      ],
+      "documentation_path": "docs/workflows/agriculture/commodity_price_tracker.md",
+      "source": {
+        "type": "adapted-from-upstream",
+        "repository": "https://github.com/wassupjay/n8n-free-templates",
+        "notes": "Imported/adapted templates; upstream repository currently has no declared GitHub license metadata."
+      },
+      "tested_date": null,
+      "risk_flags": [
+        "physical-world-impact"
+      ],
+      "webhook_paths": [
+        "commodity_price_tracker"
+      ],
+      "node_count": 11
+    },
+    {
+      "name": "Crop Yield Predictor",
+      "category": "Agriculture",
+      "relative_path": "Agriculture/crop_yield_predictor.json",
+      "status": "needs-configuration",
+      "compatibility": {
+        "n8n": "1.x (verify in your environment)"
+      },
+      "providers": [
+        "Google Sheets",
+        "Hugging Face",
+        "OpenAI",
+        "Supabase"
+      ],
+      "required_credentials": [
+        "Google Sheets",
+        "Hugging Face",
+        "OpenAI",
+        "Supabase"
+      ],
+      "documentation_path": "docs/workflows/agriculture/crop_yield_predictor.md",
+      "source": {
+        "type": "adapted-from-upstream",
+        "repository": "https://github.com/wassupjay/n8n-free-templates",
+        "notes": "Imported/adapted templates; upstream repository currently has no declared GitHub license metadata."
+      },
+      "tested_date": null,
+      "risk_flags": [
+        "physical-world-impact"
+      ],
+      "webhook_paths": [
+        "crop_yield_predictor"
+      ],
+      "node_count": 11
+    },
+    {
+      "name": "Drone Image Crop Health",
+      "category": "Agriculture",
+      "relative_path": "Agriculture/drone_image_crop_health.json",
+      "status": "needs-configuration",
+      "compatibility": {
+        "n8n": "1.x (verify in your environment)"
+      },
+      "providers": [
+        "Anthropic",
+        "Google Sheets",
+        "OpenAI",
+        "Supabase"
+      ],
+      "required_credentials": [
+        "Anthropic",
+        "Google Sheets",
+        "OpenAI",
+        "Supabase"
+      ],
+      "documentation_path": "docs/workflows/agriculture/drone_image_crop_health.md",
+      "source": {
+        "type": "adapted-from-upstream",
+        "repository": "https://github.com/wassupjay/n8n-free-templates",
+        "notes": "Imported/adapted templates; upstream repository currently has no declared GitHub license metadata."
+      },
+      "tested_date": null,
+      "risk_flags": [
+        "physical-world-impact"
+      ],
+      "webhook_paths": [
+        "drone_image_crop_health"
+      ],
+      "node_count": 11
+    },
+    {
+      "name": "Farm Equipment Maintenance Reminder",
+      "category": "Agriculture",
+      "relative_path": "Agriculture/farm_equipment_maintenance_reminder.json",
+      "status": "needs-configuration",
+      "compatibility": {
+        "n8n": "1.x (verify in your environment)"
+      },
+      "providers": [
+        "Google Sheets",
+        "Hugging Face",
+        "OpenAI",
+        "Weaviate"
+      ],
+      "required_credentials": [
+        "Google Sheets",
+        "Hugging Face",
+        "OpenAI",
+        "Weaviate"
+      ],
+      "documentation_path": "docs/workflows/agriculture/farm_equipment_maintenance_reminder.md",
+      "source": {
+        "type": "adapted-from-upstream",
+        "repository": "https://github.com/wassupjay/n8n-free-templates",
+        "notes": "Imported/adapted templates; upstream repository currently has no declared GitHub license metadata."
+      },
+      "tested_date": null,
+      "risk_flags": [
+        "physical-world-impact"
+      ],
+      "webhook_paths": [
+        "farm_equipment_maintenance_reminder"
+      ],
+      "node_count": 11
+    },
+    {
+      "name": "Greenhouse Climate Controller",
+      "category": "Agriculture",
+      "relative_path": "Agriculture/greenhouse_climate_controller.json",
+      "status": "needs-configuration",
+      "compatibility": {
+        "n8n": "1.x (verify in your environment)"
+      },
+      "providers": [
+        "Google Sheets",
+        "Hugging Face",
+        "Pinecone"
+      ],
+      "required_credentials": [
+        "Google Sheets",
+        "Hugging Face",
+        "Pinecone"
+      ],
+      "documentation_path": "docs/workflows/agriculture/greenhouse_climate_controller.md",
+      "source": {
+        "type": "adapted-from-upstream",
+        "repository": "https://github.com/wassupjay/n8n-free-templates",
+        "notes": "Imported/adapted templates; upstream repository currently has no declared GitHub license metadata."
+      },
+      "tested_date": null,
+      "risk_flags": [
+        "physical-world-impact"
+      ],
+      "webhook_paths": [
+        "greenhouse_climate_controller"
+      ],
+      "node_count": 11
+    },
+    {
+      "name": "Harvest Logbook",
+      "category": "Agriculture",
+      "relative_path": "Agriculture/harvest_logbook.json",
+      "status": "needs-configuration",
+      "compatibility": {
+        "n8n": "1.x (verify in your environment)"
+      },
+      "providers": [
+        "Google Sheets",
+        "Hugging Face",
+        "OpenAI",
+        "Pinecone"
+      ],
+      "required_credentials": [
+        "Google Sheets",
+        "Hugging Face",
+        "OpenAI",
+        "Pinecone"
+      ],
+      "documentation_path": "docs/workflows/agriculture/harvest_logbook.md",
+      "source": {
+        "type": "adapted-from-upstream",
+        "repository": "https://github.com/wassupjay/n8n-free-templates",
+        "notes": "Imported/adapted templates; upstream repository currently has no declared GitHub license metadata."
+      },
+      "tested_date": null,
+      "risk_flags": [
+        "physical-world-impact"
+      ],
+      "webhook_paths": [
+        "harvest_logbook"
+      ],
+      "node_count": 11
+    },
+    {
+      "name": "Irrigation Schedule Optimizer",
+      "category": "Agriculture",
+      "relative_path": "Agriculture/irrigation_schedule_optimizer.json",
+      "status": "needs-configuration",
+      "compatibility": {
+        "n8n": "1.x (verify in your environment)"
+      },
+      "providers": [
+        "Google Sheets",
+        "Hugging Face",
+        "OpenAI",
+        "Pinecone"
+      ],
+      "required_credentials": [
+        "Google Sheets",
+        "Hugging Face",
+        "OpenAI",
+        "Pinecone"
+      ],
+      "documentation_path": "docs/workflows/agriculture/irrigation_schedule_optimizer.md",
+      "source": {
+        "type": "adapted-from-upstream",
+        "repository": "https://github.com/wassupjay/n8n-free-templates",
+        "notes": "Imported/adapted templates; upstream repository currently has no declared GitHub license metadata."
+      },
+      "tested_date": null,
+      "risk_flags": [
+        "physical-world-impact"
+      ],
+      "webhook_paths": [
+        "irrigation_schedule_optimizer"
+      ],
+      "node_count": 11
+    },
+    {
+      "name": "Pest Outbreak Alert",
+      "category": "Agriculture",
+      "relative_path": "Agriculture/pest_outbreak_alert.json",
+      "status": "needs-configuration",
+      "compatibility": {
+        "n8n": "1.x (verify in your environment)"
+      },
+      "providers": [
+        "Cohere",
+        "Google Sheets",
+        "OpenAI",
+        "Pinecone"
+      ],
+      "required_credentials": [
+        "Cohere",
+        "Google Sheets",
+        "OpenAI",
+        "Pinecone"
+      ],
+      "documentation_path": "docs/workflows/agriculture/pest_outbreak_alert.md",
+      "source": {
+        "type": "adapted-from-upstream",
+        "repository": "https://github.com/wassupjay/n8n-free-templates",
+        "notes": "Imported/adapted templates; upstream repository currently has no declared GitHub license metadata."
+      },
+      "tested_date": null,
+      "risk_flags": [
+        "physical-world-impact"
+      ],
+      "webhook_paths": [
+        "pest_outbreak_alert"
+      ],
+      "node_count": 11
+    },
+    {
+      "name": "Soil Nutrient Analysis",
+      "category": "Agriculture",
+      "relative_path": "Agriculture/soil_nutrient_analysis.json",
+      "status": "needs-configuration",
+      "compatibility": {
+        "n8n": "1.x (verify in your environment)"
+      },
+      "providers": [
+        "Google Sheets",
+        "Hugging Face",
+        "Weaviate"
+      ],
+      "required_credentials": [
+        "Google Sheets",
+        "Hugging Face",
+        "Weaviate"
+      ],
+      "documentation_path": "docs/workflows/agriculture/soil_nutrient_analysis.md",
+      "source": {
+        "type": "adapted-from-upstream",
+        "repository": "https://github.com/wassupjay/n8n-free-templates",
+        "notes": "Imported/adapted templates; upstream repository currently has no declared GitHub license metadata."
+      },
+      "tested_date": null,
+      "risk_flags": [
+        "physical-world-impact"
+      ],
+      "webhook_paths": [
+        "soil_nutrient_analysis"
+      ],
+      "node_count": 11
+    },
+    {
+      "name": "Weather Impact Report",
+      "category": "Agriculture",
+      "relative_path": "Agriculture/weather_impact_report.json",
+      "status": "needs-configuration",
+      "compatibility": {
+        "n8n": "1.x (verify in your environment)"
+      },
+      "providers": [
+        "Anthropic",
+        "Google Sheets",
+        "Hugging Face",
+        "Supabase"
+      ],
+      "required_credentials": [
+        "Anthropic",
+        "Google Sheets",
+        "Hugging Face",
+        "Supabase"
+      ],
+      "documentation_path": "docs/workflows/agriculture/weather_impact_report.md",
+      "source": {
+        "type": "adapted-from-upstream",
+        "repository": "https://github.com/wassupjay/n8n-free-templates",
+        "notes": "Imported/adapted templates; upstream repository currently has no declared GitHub license metadata."
+      },
+      "tested_date": null,
+      "risk_flags": [
+        "physical-world-impact"
+      ],
+      "webhook_paths": [
+        "weather_impact_report"
+      ],
+      "node_count": 11
+    },
+    {
+      "name": "YouTube Transcript to Blog",
+      "category": "Creative_Content",
+      "relative_path": "Creative_Content/youtube_transcript_to_blog.json",
+      "status": "needs-configuration",
+      "compatibility": {
+        "n8n": "1.x (verify in your environment)"
+      },
+      "providers": [
+        "Anthropic",
+        "Google Sheets",
+        "OpenAI",
+        "Pinecone",
+        "Slack"
+      ],
+      "required_credentials": [
+        "Anthropic",
+        "Google Sheets",
+        "OpenAI",
+        "Pinecone",
+        "Slack"
+      ],
+      "documentation_path": "docs/workflows/creative_content/youtube_transcript_to_blog.md",
+      "source": {
+        "type": "adapted-from-upstream",
+        "repository": "https://github.com/wassupjay/n8n-free-templates",
+        "notes": "Imported/adapted templates; upstream repository currently has no declared GitHub license metadata."
+      },
+      "tested_date": null,
+      "risk_flags": [
+        "ai-generated-output"
+      ],
+      "webhook_paths": [
+        "youtube-transcript-to-blog"
+      ],
+      "node_count": 12
+    },
+    {
+      "name": "Daily Student Motivation",
+      "category": "Education",
+      "relative_path": "Education/daily_student_motivation.json",
+      "status": "needs-configuration",
+      "compatibility": {
+        "n8n": "1.x (verify in your environment)"
+      },
+      "providers": [
+        "Google Sheets",
+        "OpenAI",
+        "Slack",
+        "Weaviate"
+      ],
+      "required_credentials": [
+        "Google Sheets",
+        "OpenAI",
+        "Slack",
+        "Weaviate"
+      ],
+      "documentation_path": "docs/workflows/education/daily_student_motivation.md",
+      "source": {
+        "type": "adapted-from-upstream",
+        "repository": "https://github.com/wassupjay/n8n-free-templates",
+        "notes": "Imported/adapted templates; upstream repository currently has no declared GitHub license metadata."
+      },
+      "tested_date": null,
+      "risk_flags": [
+        "may-process-pii",
+        "ai-generated-output"
+      ],
+      "webhook_paths": [
+        "daily-student-motivation"
+      ],
+      "node_count": 12
+    },
+    {
+      "name": "Quiz Auto Grader",
+      "category": "Education",
+      "relative_path": "Education/quiz_auto_grader.json",
+      "status": "needs-configuration",
+      "compatibility": {
+        "n8n": "1.x (verify in your environment)"
+      },
+      "providers": [
+        "Cohere",
+        "Google Sheets",
+        "OpenAI",
+        "Pinecone",
+        "Slack"
+      ],
+      "required_credentials": [
+        "Cohere",
+        "Google Sheets",
+        "OpenAI",
+        "Pinecone",
+        "Slack"
+      ],
+      "documentation_path": "docs/workflows/education/quiz_auto_grader.md",
+      "source": {
+        "type": "adapted-from-upstream",
+        "repository": "https://github.com/wassupjay/n8n-free-templates",
+        "notes": "Imported/adapted templates; upstream repository currently has no declared GitHub license metadata."
+      },
+      "tested_date": null,
+      "risk_flags": [
+        "ai-generated-output"
+      ],
+      "webhook_paths": [
+        "quiz-auto-grader"
+      ],
+      "node_count": 12
+    },
+    {
+      "name": "BLE Beacon Mapper",
+      "category": "IoT",
+      "relative_path": "IoT/ble_beacon_mapper.json",
+      "status": "needs-configuration",
+      "compatibility": {
+        "n8n": "1.x (verify in your environment)"
+      },
+      "providers": [
+        "Google Sheets",
+        "Hugging Face",
+        "OpenAI",
+        "Pinecone"
+      ],
+      "required_credentials": [
+        "Google Sheets",
+        "Hugging Face",
+        "OpenAI",
+        "Pinecone"
+      ],
+      "documentation_path": "docs/workflows/iot/ble_beacon_mapper.md",
+      "source": {
+        "type": "adapted-from-upstream",
+        "repository": "https://github.com/wassupjay/n8n-free-templates",
+        "notes": "Imported/adapted templates; upstream repository currently has no declared GitHub license metadata."
+      },
+      "tested_date": null,
+      "risk_flags": [
+        "physical-world-impact"
+      ],
+      "webhook_paths": [
+        "ble_beacon_mapper"
+      ],
+      "node_count": 11
+    },
+    {
+      "name": "Edge Device Log Compressor",
+      "category": "IoT",
+      "relative_path": "IoT/edge_device_log_compressor.json",
+      "status": "needs-configuration",
+      "compatibility": {
+        "n8n": "1.x (verify in your environment)"
+      },
+      "providers": [
+        "Anthropic",
+        "Cohere",
+        "Google Sheets",
+        "Redis"
+      ],
+      "required_credentials": [
+        "Anthropic",
+        "Cohere",
+        "Google Sheets",
+        "Redis"
+      ],
+      "documentation_path": "docs/workflows/iot/edge_device_log_compressor.md",
+      "source": {
+        "type": "adapted-from-upstream",
+        "repository": "https://github.com/wassupjay/n8n-free-templates",
+        "notes": "Imported/adapted templates; upstream repository currently has no declared GitHub license metadata."
+      },
+      "tested_date": null,
+      "risk_flags": [
+        "physical-world-impact"
+      ],
+      "webhook_paths": [
+        "edge_device_log_compressor"
+      ],
+      "node_count": 11
+    },
+    {
+      "name": "Environmental Data Dashboard",
+      "category": "IoT",
+      "relative_path": "IoT/environmental_data_dashboard.json",
+      "status": "needs-configuration",
+      "compatibility": {
+        "n8n": "1.x (verify in your environment)"
+      },
+      "providers": [
+        "Google Sheets",
+        "OpenAI",
+        "Weaviate"
+      ],
+      "required_credentials": [
+        "Google Sheets",
+        "OpenAI",
+        "Weaviate"
+      ],
+      "documentation_path": "docs/workflows/iot/environmental_data_dashboard.md",
+      "source": {
+        "type": "adapted-from-upstream",
+        "repository": "https://github.com/wassupjay/n8n-free-templates",
+        "notes": "Imported/adapted templates; upstream repository currently has no declared GitHub license metadata."
+      },
+      "tested_date": null,
+      "risk_flags": [
+        "physical-world-impact"
+      ],
+      "webhook_paths": [
+        "environmental_data_dashboard"
+      ],
+      "node_count": 11
+    },
+    {
+      "name": "Industrial IoT KPI Email",
+      "category": "IoT",
+      "relative_path": "IoT/industrial_iot_kpi_email.json",
+      "status": "needs-configuration",
+      "compatibility": {
+        "n8n": "1.x (verify in your environment)"
+      },
+      "providers": [
+        "Cohere",
+        "Google Sheets",
+        "OpenAI",
+        "Redis"
+      ],
+      "required_credentials": [
+        "Cohere",
+        "Google Sheets",
+        "OpenAI",
+        "Redis"
+      ],
+      "documentation_path": "docs/workflows/iot/industrial_iot_kpi_email.md",
+      "source": {
+        "type": "adapted-from-upstream",
+        "repository": "https://github.com/wassupjay/n8n-free-templates",
+        "notes": "Imported/adapted templates; upstream repository currently has no declared GitHub license metadata."
+      },
+      "tested_date": null,
+      "risk_flags": [
+        "may-process-pii",
+        "physical-world-impact"
+      ],
+      "webhook_paths": [
+        "industrial_iot_kpi_email"
+      ],
+      "node_count": 11
+    },
+    {
+      "name": "IoT Device Firmware Update Planner",
+      "category": "IoT",
+      "relative_path": "IoT/iot_device_firmware_update_planner.json",
+      "status": "needs-configuration",
+      "compatibility": {
+        "n8n": "1.x (verify in your environment)"
+      },
+      "providers": [
+        "Google Sheets",
+        "Hugging Face",
+        "OpenAI",
+        "Pinecone"
+      ],
+      "required_credentials": [
+        "Google Sheets",
+        "Hugging Face",
+        "OpenAI",
+        "Pinecone"
+      ],
+      "documentation_path": "docs/workflows/iot/iot_device_firmware_update_planner.md",
+      "source": {
+        "type": "adapted-from-upstream",
+        "repository": "https://github.com/wassupjay/n8n-free-templates",
+        "notes": "Imported/adapted templates; upstream repository currently has no declared GitHub license metadata."
+      },
+      "tested_date": null,
+      "risk_flags": [
+        "physical-world-impact"
+      ],
+      "webhook_paths": [
+        "iot_device_firmware_update_planner"
+      ],
+      "node_count": 11
+    },
+    {
+      "name": "MQTT Topic Monitor",
+      "category": "IoT",
+      "relative_path": "IoT/mqtt_topic_monitor.json",
+      "status": "needs-configuration",
+      "compatibility": {
+        "n8n": "1.x (verify in your environment)"
+      },
+      "providers": [
+        "Google Sheets",
+        "Hugging Face",
+        "OpenAI",
+        "Redis"
+      ],
+      "required_credentials": [
+        "Google Sheets",
+        "Hugging Face",
+        "OpenAI",
+        "Redis"
+      ],
+      "documentation_path": "docs/workflows/iot/mqtt_topic_monitor.md",
+      "source": {
+        "type": "adapted-from-upstream",
+        "repository": "https://github.com/wassupjay/n8n-free-templates",
+        "notes": "Imported/adapted templates; upstream repository currently has no declared GitHub license metadata."
+      },
+      "tested_date": null,
+      "risk_flags": [
+        "physical-world-impact"
+      ],
+      "webhook_paths": [
+        "mqtt_topic_monitor"
+      ],
+      "node_count": 11
+    },
+    {
+      "name": "Predictive Maintenance Alert",
+      "category": "IoT",
+      "relative_path": "IoT/predictive_maintenance_alert.json",
+      "status": "needs-configuration",
+      "compatibility": {
+        "n8n": "1.x (verify in your environment)"
+      },
+      "providers": [
+        "Google Sheets",
+        "OpenAI",
+        "Weaviate"
+      ],
+      "required_credentials": [
+        "Google Sheets",
+        "OpenAI",
+        "Weaviate"
+      ],
+      "documentation_path": "docs/workflows/iot/predictive_maintenance_alert.md",
+      "source": {
+        "type": "adapted-from-upstream",
+        "repository": "https://github.com/wassupjay/n8n-free-templates",
+        "notes": "Imported/adapted templates; upstream repository currently has no declared GitHub license metadata."
+      },
+      "tested_date": null,
+      "risk_flags": [
+        "physical-world-impact"
+      ],
+      "webhook_paths": [
+        "predictive_maintenance_alert"
+      ],
+      "node_count": 11
+    },
+    {
+      "name": "Sensor Fault Detector",
+      "category": "IoT",
+      "relative_path": "IoT/sensor_fault_detector.json",
+      "status": "needs-configuration",
+      "compatibility": {
+        "n8n": "1.x (verify in your environment)"
+      },
+      "providers": [
+        "Google Sheets",
+        "Hugging Face",
+        "OpenAI",
+        "Supabase"
+      ],
+      "required_credentials": [
+        "Google Sheets",
+        "Hugging Face",
+        "OpenAI",
+        "Supabase"
+      ],
+      "documentation_path": "docs/workflows/iot/sensor_fault_detector.md",
+      "source": {
+        "type": "adapted-from-upstream",
+        "repository": "https://github.com/wassupjay/n8n-free-templates",
+        "notes": "Imported/adapted templates; upstream repository currently has no declared GitHub license metadata."
+      },
+      "tested_date": null,
+      "risk_flags": [
+        "physical-world-impact"
+      ],
+      "webhook_paths": [
+        "sensor_fault_detector"
+      ],
+      "node_count": 11
+    },
+    {
+      "name": "Smart Home Energy Saver",
+      "category": "IoT",
+      "relative_path": "IoT/smart_home_energy_saver.json",
+      "status": "needs-configuration",
+      "compatibility": {
+        "n8n": "1.x (verify in your environment)"
+      },
+      "providers": [
+        "Cohere",
+        "Google Sheets",
+        "Hugging Face",
+        "Supabase"
+      ],
+      "required_credentials": [
+        "Cohere",
+        "Google Sheets",
+        "Hugging Face",
+        "Supabase"
+      ],
+      "documentation_path": "docs/workflows/iot/smart_home_energy_saver.md",
+      "source": {
+        "type": "adapted-from-upstream",
+        "repository": "https://github.com/wassupjay/n8n-free-templates",
+        "notes": "Imported/adapted templates; upstream repository currently has no declared GitHub license metadata."
+      },
+      "tested_date": null,
+      "risk_flags": [
+        "physical-world-impact"
+      ],
+      "webhook_paths": [
+        "smart_home_energy_saver"
+      ],
+      "node_count": 11
+    },
+    {
+      "name": "Vehicle Telematics Analyzer",
+      "category": "IoT",
+      "relative_path": "IoT/vehicle_telematics_analyzer.json",
+      "status": "needs-configuration",
+      "compatibility": {
+        "n8n": "1.x (verify in your environment)"
+      },
+      "providers": [
+        "Google Sheets",
+        "Hugging Face",
+        "OpenAI",
+        "Redis"
+      ],
+      "required_credentials": [
+        "Google Sheets",
+        "Hugging Face",
+        "OpenAI",
+        "Redis"
+      ],
+      "documentation_path": "docs/workflows/iot/vehicle_telematics_analyzer.md",
+      "source": {
+        "type": "adapted-from-upstream",
+        "repository": "https://github.com/wassupjay/n8n-free-templates",
+        "notes": "Imported/adapted templates; upstream repository currently has no declared GitHub license metadata."
+      },
+      "tested_date": null,
+      "risk_flags": [
+        "physical-world-impact"
+      ],
+      "webhook_paths": [
+        "vehicle_telematics_analyzer"
+      ],
+      "node_count": 11
+    },
+    {
+      "name": "Ad Campaign Performance Alert",
+      "category": "Media",
+      "relative_path": "Media/ad_campaign_performance_alert.json",
+      "status": "needs-configuration",
+      "compatibility": {
+        "n8n": "1.x (verify in your environment)"
+      },
+      "providers": [
+        "Cohere",
+        "Google Sheets",
+        "OpenAI",
+        "Pinecone"
+      ],
+      "required_credentials": [
+        "Cohere",
+        "Google Sheets",
+        "OpenAI",
+        "Pinecone"
+      ],
+      "documentation_path": "docs/workflows/media/ad_campaign_performance_alert.md",
+      "source": {
+        "type": "adapted-from-upstream",
+        "repository": "https://github.com/wassupjay/n8n-free-templates",
+        "notes": "Imported/adapted templates; upstream repository currently has no declared GitHub license metadata."
+      },
+      "tested_date": null,
+      "risk_flags": [
+        "ai-generated-output"
+      ],
+      "webhook_paths": [
+        "ad_campaign_performance_alert"
+      ],
+      "node_count": 11
+    },
+    {
+      "name": "Breaking News Summarizer",
+      "category": "Media",
+      "relative_path": "Media/breaking_news_summarizer.json",
+      "status": "needs-configuration",
+      "compatibility": {
+        "n8n": "1.x (verify in your environment)"
+      },
+      "providers": [
+        "Google Sheets",
+        "Hugging Face",
+        "OpenAI",
+        "Weaviate"
+      ],
+      "required_credentials": [
+        "Google Sheets",
+        "Hugging Face",
+        "OpenAI",
+        "Weaviate"
+      ],
+      "documentation_path": "docs/workflows/media/breaking_news_summarizer.md",
+      "source": {
+        "type": "adapted-from-upstream",
+        "repository": "https://github.com/wassupjay/n8n-free-templates",
+        "notes": "Imported/adapted templates; upstream repository currently has no declared GitHub license metadata."
+      },
+      "tested_date": null,
+      "risk_flags": [
+        "ai-generated-output"
+      ],
+      "webhook_paths": [
+        "breaking_news_summarizer"
+      ],
+      "node_count": 11
+    },
+    {
+      "name": "Content Idea Brainstormer",
+      "category": "Media",
+      "relative_path": "Media/content_idea_brainstormer.json",
+      "status": "needs-configuration",
+      "compatibility": {
+        "n8n": "1.x (verify in your environment)"
+      },
+      "providers": [
+        "Anthropic",
+        "Google Sheets",
+        "OpenAI",
+        "Redis"
+      ],
+      "required_credentials": [
+        "Anthropic",
+        "Google Sheets",
+        "OpenAI",
+        "Redis"
+      ],
+      "documentation_path": "docs/workflows/media/content_idea_brainstormer.md",
+      "source": {
+        "type": "adapted-from-upstream",
+        "repository": "https://github.com/wassupjay/n8n-free-templates",
+        "notes": "Imported/adapted templates; upstream repository currently has no declared GitHub license metadata."
+      },
+      "tested_date": null,
+      "risk_flags": [
+        "ai-generated-output"
+      ],
+      "webhook_paths": [
+        "content_idea_brainstormer"
+      ],
+      "node_count": 11
+    },
+    {
+      "name": "Live Stream Chat Moderator",
+      "category": "Media",
+      "relative_path": "Media/live_stream_chat_moderator.json",
+      "status": "needs-configuration",
+      "compatibility": {
+        "n8n": "1.x (verify in your environment)"
+      },
+      "providers": [
+        "Anthropic",
+        "Google Sheets",
+        "OpenAI",
+        "Supabase"
+      ],
+      "required_credentials": [
+        "Anthropic",
+        "Google Sheets",
+        "OpenAI",
+        "Supabase"
+      ],
+      "documentation_path": "docs/workflows/media/live_stream_chat_moderator.md",
+      "source": {
+        "type": "adapted-from-upstream",
+        "repository": "https://github.com/wassupjay/n8n-free-templates",
+        "notes": "Imported/adapted templates; upstream repository currently has no declared GitHub license metadata."
+      },
+      "tested_date": null,
+      "risk_flags": [
+        "ai-generated-output"
+      ],
+      "webhook_paths": [
+        "live_stream_chat_moderator"
+      ],
+      "node_count": 11
+    },
+    {
+      "name": "Music Playlist Mood Tagger",
+      "category": "Media",
+      "relative_path": "Media/music_playlist_mood_tagger.json",
+      "status": "needs-configuration",
+      "compatibility": {
+        "n8n": "1.x (verify in your environment)"
+      },
+      "providers": [
+        "Google Sheets",
+        "OpenAI",
+        "Redis"
+      ],
+      "required_credentials": [
+        "Google Sheets",
+        "OpenAI",
+        "Redis"
+      ],
+      "documentation_path": "docs/workflows/media/music_playlist_mood_tagger.md",
+      "source": {
+        "type": "adapted-from-upstream",
+        "repository": "https://github.com/wassupjay/n8n-free-templates",
+        "notes": "Imported/adapted templates; upstream repository currently has no declared GitHub license metadata."
+      },
+      "tested_date": null,
+      "risk_flags": [
+        "ai-generated-output"
+      ],
+      "webhook_paths": [
+        "music_playlist_mood_tagger"
+      ],
+      "node_count": 11
+    },
+    {
+      "name": "Podcast Show Notes Generator",
+      "category": "Media",
+      "relative_path": "Media/podcast_show_notes_generator.json",
+      "status": "needs-configuration",
+      "compatibility": {
+        "n8n": "1.x (verify in your environment)"
+      },
+      "providers": [
+        "Cohere",
+        "Google Sheets",
+        "OpenAI",
+        "Supabase"
+      ],
+      "required_credentials": [
+        "Cohere",
+        "Google Sheets",
+        "OpenAI",
+        "Supabase"
+      ],
+      "documentation_path": "docs/workflows/media/podcast_show_notes_generator.md",
+      "source": {
+        "type": "adapted-from-upstream",
+        "repository": "https://github.com/wassupjay/n8n-free-templates",
+        "notes": "Imported/adapted templates; upstream repository currently has no declared GitHub license metadata."
+      },
+      "tested_date": null,
+      "risk_flags": [
+        "ai-generated-output"
+      ],
+      "webhook_paths": [
+        "podcast_show_notes_generator"
+      ],
+      "node_count": 11
+    },
+    {
+      "name": "PR Crisis Detector",
+      "category": "Media",
+      "relative_path": "Media/pr_crisis_detector.json",
+      "status": "needs-configuration",
+      "compatibility": {
+        "n8n": "1.x (verify in your environment)"
+      },
+      "providers": [
+        "Google Sheets",
+        "Hugging Face",
+        "OpenAI",
+        "Redis"
+      ],
+      "required_credentials": [
+        "Google Sheets",
+        "Hugging Face",
+        "OpenAI",
+        "Redis"
+      ],
+      "documentation_path": "docs/workflows/media/pr_crisis_detector.md",
+      "source": {
+        "type": "adapted-from-upstream",
+        "repository": "https://github.com/wassupjay/n8n-free-templates",
+        "notes": "Imported/adapted templates; upstream repository currently has no declared GitHub license metadata."
+      },
+      "tested_date": null,
+      "risk_flags": [
+        "ai-generated-output"
+      ],
+      "webhook_paths": [
+        "pr_crisis_detector"
+      ],
+      "node_count": 11
+    },
+    {
+      "name": "Script Dialogue Analyzer",
+      "category": "Media",
+      "relative_path": "Media/script_dialogue_analyzer.json",
+      "status": "needs-configuration",
+      "compatibility": {
+        "n8n": "1.x (verify in your environment)"
+      },
+      "providers": [
+        "Google Sheets",
+        "Hugging Face",
+        "OpenAI",
+        "Pinecone"
+      ],
+      "required_credentials": [
+        "Google Sheets",
+        "Hugging Face",
+        "OpenAI",
+        "Pinecone"
+      ],
+      "documentation_path": "docs/workflows/media/script_dialogue_analyzer.md",
+      "source": {
+        "type": "adapted-from-upstream",
+        "repository": "https://github.com/wassupjay/n8n-free-templates",
+        "notes": "Imported/adapted templates; upstream repository currently has no declared GitHub license metadata."
+      },
+      "tested_date": null,
+      "risk_flags": [
+        "ai-generated-output"
+      ],
+      "webhook_paths": [
+        "script_dialogue_analyzer"
+      ],
+      "node_count": 11
+    },
+    {
+      "name": "Social Buzz Heatmap",
+      "category": "Media",
+      "relative_path": "Media/social_buzz_heatmap.json",
+      "status": "needs-configuration",
+      "compatibility": {
+        "n8n": "1.x (verify in your environment)"
+      },
+      "providers": [
+        "Google Sheets",
+        "Hugging Face",
+        "OpenAI",
+        "Supabase"
+      ],
+      "required_credentials": [
+        "Google Sheets",
+        "Hugging Face",
+        "OpenAI",
+        "Supabase"
+      ],
+      "documentation_path": "docs/workflows/media/social_buzz_heatmap.md",
+      "source": {
+        "type": "adapted-from-upstream",
+        "repository": "https://github.com/wassupjay/n8n-free-templates",
+        "notes": "Imported/adapted templates; upstream repository currently has no declared GitHub license metadata."
+      },
+      "tested_date": null,
+      "risk_flags": [
+        "ai-generated-output"
+      ],
+      "webhook_paths": [
+        "social_buzz_heatmap"
+      ],
+      "node_count": 11
+    },
+    {
+      "name": "TV Rating Trend Report",
+      "category": "Media",
+      "relative_path": "Media/tv_rating_trend_report.json",
+      "status": "needs-configuration",
+      "compatibility": {
+        "n8n": "1.x (verify in your environment)"
+      },
+      "providers": [
+        "Google Sheets",
+        "Hugging Face",
+        "Redis"
+      ],
+      "required_credentials": [
+        "Google Sheets",
+        "Hugging Face",
+        "Redis"
+      ],
+      "documentation_path": "docs/workflows/media/tv_rating_trend_report.md",
+      "source": {
+        "type": "adapted-from-upstream",
+        "repository": "https://github.com/wassupjay/n8n-free-templates",
+        "notes": "Imported/adapted templates; upstream repository currently has no declared GitHub license metadata."
+      },
+      "tested_date": null,
+      "risk_flags": [
+        "ai-generated-output"
+      ],
+      "webhook_paths": [
+        "tv_rating_trend_report"
+      ],
+      "node_count": 11
+    },
+    {
+      "name": "Video Automation (images only)",
+      "category": "Social_Media",
+      "relative_path": "Social_Media/Video_Automation__images_only_.json",
+      "status": "needs-configuration",
+      "compatibility": {
+        "n8n": "1.x (verify in your environment)"
+      },
+      "providers": [
+        "Google Drive",
+        "Google Sheets",
+        "OpenAI"
+      ],
+      "required_credentials": [
+        "Google Drive",
+        "Google Sheets",
+        "OpenAI"
+      ],
+      "documentation_path": "docs/workflows/social_media/Video_Automation__images_only_.md",
+      "source": {
+        "type": "adapted-from-upstream",
+        "repository": "https://github.com/wassupjay/n8n-free-templates",
+        "notes": "Imported/adapted templates; upstream repository currently has no declared GitHub license metadata."
+      },
+      "tested_date": null,
+      "risk_flags": [
+        "ai-generated-output"
+      ],
+      "webhook_paths": [],
+      "node_count": 28
+    },
+    {
+      "name": "Alert on Instagram Competitor Story",
+      "category": "Social_Media",
+      "relative_path": "Social_Media/alert_on_instagram_competitor_story.json",
+      "status": "needs-configuration",
+      "compatibility": {
+        "n8n": "1.x (verify in your environment)"
+      },
+      "providers": [
+        "Google Sheets",
+        "OpenAI",
+        "Slack",
+        "Supabase"
+      ],
+      "required_credentials": [
+        "Google Sheets",
+        "OpenAI",
+        "Slack",
+        "Supabase"
+      ],
+      "documentation_path": "docs/workflows/social_media/alert_on_instagram_competitor_story.md",
+      "source": {
+        "type": "adapted-from-upstream",
+        "repository": "https://github.com/wassupjay/n8n-free-templates",
+        "notes": "Imported/adapted templates; upstream repository currently has no declared GitHub license metadata."
+      },
+      "tested_date": null,
+      "risk_flags": [
+        "ai-generated-output"
+      ],
+      "webhook_paths": [
+        "alert-on-instagram-competitor-story"
+      ],
+      "node_count": 12
+    },
+    {
+      "name": "Auto-DM New Twitter Followers",
+      "category": "Social_Media",
+      "relative_path": "Social_Media/auto-dm_new_twitter_followers.json",
+      "status": "needs-configuration",
+      "compatibility": {
+        "n8n": "1.x (verify in your environment)"
+      },
+      "providers": [
+        "Cohere",
+        "Google Sheets",
+        "OpenAI",
+        "Pinecone",
+        "Slack"
+      ],
+      "required_credentials": [
+        "Cohere",
+        "Google Sheets",
+        "OpenAI",
+        "Pinecone",
+        "Slack"
+      ],
+      "documentation_path": "docs/workflows/social_media/auto-dm_new_twitter_followers.md",
+      "source": {
+        "type": "adapted-from-upstream",
+        "repository": "https://github.com/wassupjay/n8n-free-templates",
+        "notes": "Imported/adapted templates; upstream repository currently has no declared GitHub license metadata."
+      },
+      "tested_date": null,
+      "risk_flags": [
+        "ai-generated-output"
+      ],
+      "webhook_paths": [
+        "auto-dm-new-twitter-followers"
+      ],
+      "node_count": 12
+    },
+    {
+      "name": "Auto-post Blogs to LinkedIn and Twitter",
+      "category": "Social_Media",
+      "relative_path": "Social_Media/auto-post_blogs_to_linkedin_and_twitter.json",
+      "status": "needs-configuration",
+      "compatibility": {
+        "n8n": "1.x (verify in your environment)"
+      },
+      "providers": [
+        "Anthropic",
+        "Google Sheets",
+        "OpenAI",
+        "Slack",
+        "Supabase"
+      ],
+      "required_credentials": [
+        "Anthropic",
+        "Google Sheets",
+        "OpenAI",
+        "Slack",
+        "Supabase"
+      ],
+      "documentation_path": "docs/workflows/social_media/auto-post_blogs_to_linkedin_and_twitter.md",
+      "source": {
+        "type": "adapted-from-upstream",
+        "repository": "https://github.com/wassupjay/n8n-free-templates",
+        "notes": "Imported/adapted templates; upstream repository currently has no declared GitHub license metadata."
+      },
+      "tested_date": null,
+      "risk_flags": [
+        "ai-generated-output"
+      ],
+      "webhook_paths": [
+        "auto-post-blogs-to-linkedin-and-twitter"
+      ],
+      "node_count": 12
+    },
+    {
+      "name": "Auto-reply to TikTok Comments",
+      "category": "Social_Media",
+      "relative_path": "Social_Media/auto-reply_to_tiktok_comments.json",
+      "status": "needs-configuration",
+      "compatibility": {
+        "n8n": "1.x (verify in your environment)"
+      },
+      "providers": [
+        "Anthropic",
+        "Cohere",
+        "Google Sheets",
+        "Pinecone",
+        "Slack"
+      ],
+      "required_credentials": [
+        "Anthropic",
+        "Cohere",
+        "Google Sheets",
+        "Pinecone",
+        "Slack"
+      ],
+      "documentation_path": "docs/workflows/social_media/auto-reply_to_tiktok_comments.md",
+      "source": {
+        "type": "adapted-from-upstream",
+        "repository": "https://github.com/wassupjay/n8n-free-templates",
+        "notes": "Imported/adapted templates; upstream repository currently has no declared GitHub license metadata."
+      },
+      "tested_date": null,
+      "risk_flags": [
+        "ai-generated-output"
+      ],
+      "webhook_paths": [
+        "auto-reply-to-tiktok-comments"
+      ],
+      "node_count": 12
+    },
+    {
+      "name": "Cross-post YouTube Uploads to Facebook",
+      "category": "Social_Media",
+      "relative_path": "Social_Media/cross-post_youtube_uploads_to_facebook.json",
+      "status": "needs-configuration",
+      "compatibility": {
+        "n8n": "1.x (verify in your environment)"
+      },
+      "providers": [
+        "Anthropic",
+        "Google Sheets",
+        "OpenAI",
+        "Pinecone",
+        "Slack"
+      ],
+      "required_credentials": [
+        "Anthropic",
+        "Google Sheets",
+        "OpenAI",
+        "Pinecone",
+        "Slack"
+      ],
+      "documentation_path": "docs/workflows/social_media/cross-post_youtube_uploads_to_facebook.md",
+      "source": {
+        "type": "adapted-from-upstream",
+        "repository": "https://github.com/wassupjay/n8n-free-templates",
+        "notes": "Imported/adapted templates; upstream repository currently has no declared GitHub license metadata."
+      },
+      "tested_date": null,
+      "risk_flags": [
+        "ai-generated-output"
+      ],
+      "webhook_paths": [
+        "cross-post-youtube-uploads-to-facebook"
+      ],
+      "node_count": 12
+    },
+    {
+      "name": "Log Twitter Mentions in Notion",
+      "category": "Social_Media",
+      "relative_path": "Social_Media/log_twitter_mentions_in_notion.json",
+      "status": "needs-configuration",
+      "compatibility": {
+        "n8n": "1.x (verify in your environment)"
+      },
+      "providers": [
+        "Anthropic",
+        "Cohere",
+        "Google Sheets",
+        "Slack",
+        "Weaviate"
+      ],
+      "required_credentials": [
+        "Anthropic",
+        "Cohere",
+        "Google Sheets",
+        "Slack",
+        "Weaviate"
+      ],
+      "documentation_path": "docs/workflows/social_media/log_twitter_mentions_in_notion.md",
+      "source": {
+        "type": "adapted-from-upstream",
+        "repository": "https://github.com/wassupjay/n8n-free-templates",
+        "notes": "Imported/adapted templates; upstream repository currently has no declared GitHub license metadata."
+      },
+      "tested_date": null,
+      "risk_flags": [
+        "ai-generated-output"
+      ],
+      "webhook_paths": [
+        "log-twitter-mentions-in-notion"
+      ],
+      "node_count": 12
+    },
+    {
+      "name": "Monthly Social Media Report",
+      "category": "Social_Media",
+      "relative_path": "Social_Media/monthly_social_media_report.json",
+      "status": "needs-configuration",
+      "compatibility": {
+        "n8n": "1.x (verify in your environment)"
+      },
+      "providers": [
+        "Anthropic",
+        "Google Sheets",
+        "OpenAI",
+        "Slack",
+        "Weaviate"
+      ],
+      "required_credentials": [
+        "Anthropic",
+        "Google Sheets",
+        "OpenAI",
+        "Slack",
+        "Weaviate"
+      ],
+      "documentation_path": "docs/workflows/social_media/monthly_social_media_report.md",
+      "source": {
+        "type": "adapted-from-upstream",
+        "repository": "https://github.com/wassupjay/n8n-free-templates",
+        "notes": "Imported/adapted templates; upstream repository currently has no declared GitHub license metadata."
+      },
+      "tested_date": null,
+      "risk_flags": [
+        "ai-generated-output"
+      ],
+      "webhook_paths": [
+        "monthly-social-media-report"
+      ],
+      "node_count": 12
+    },
+    {
+      "name": "Reddit Upvote Alert",
+      "category": "Social_Media",
+      "relative_path": "Social_Media/reddit_upvote_alert.json",
+      "status": "needs-configuration",
+      "compatibility": {
+        "n8n": "1.x (verify in your environment)"
+      },
+      "providers": [
+        "Anthropic",
+        "Google Sheets",
+        "OpenAI",
+        "Slack",
+        "Weaviate"
+      ],
+      "required_credentials": [
+        "Anthropic",
+        "Google Sheets",
+        "OpenAI",
+        "Slack",
+        "Weaviate"
+      ],
+      "documentation_path": "docs/workflows/social_media/reddit_upvote_alert.md",
+      "source": {
+        "type": "adapted-from-upstream",
+        "repository": "https://github.com/wassupjay/n8n-free-templates",
+        "notes": "Imported/adapted templates; upstream repository currently has no declared GitHub license metadata."
+      },
+      "tested_date": null,
+      "risk_flags": [
+        "ai-generated-output"
+      ],
+      "webhook_paths": [
+        "reddit-upvote-alert"
+      ],
+      "node_count": 12
+    },
+    {
+      "name": "Schedule Instagram Content from Airtable",
+      "category": "Social_Media",
+      "relative_path": "Social_Media/schedule_instagram_content_from_airtable.json",
+      "status": "needs-configuration",
+      "compatibility": {
+        "n8n": "1.x (verify in your environment)"
+      },
+      "providers": [
+        "Anthropic",
+        "Google Sheets",
+        "OpenAI",
+        "Pinecone",
+        "Slack"
+      ],
+      "required_credentials": [
+        "Anthropic",
+        "Google Sheets",
+        "OpenAI",
+        "Pinecone",
+        "Slack"
+      ],
+      "documentation_path": "docs/workflows/social_media/schedule_instagram_content_from_airtable.md",
+      "source": {
+        "type": "adapted-from-upstream",
+        "repository": "https://github.com/wassupjay/n8n-free-templates",
+        "notes": "Imported/adapted templates; upstream repository currently has no declared GitHub license metadata."
+      },
+      "tested_date": null,
+      "risk_flags": [
+        "ai-generated-output"
+      ],
+      "webhook_paths": [
+        "schedule-instagram-content-from-airtable"
+      ],
+      "node_count": 12
+    },
+    {
+      "name": "YouTube Comment Summarizer",
+      "category": "Social_Media",
+      "relative_path": "Social_Media/youtube_comment_summarizer.json",
+      "status": "needs-configuration",
+      "compatibility": {
+        "n8n": "1.x (verify in your environment)"
+      },
+      "providers": [
+        "Google Sheets",
+        "OpenAI",
+        "Pinecone",
+        "Slack"
+      ],
+      "required_credentials": [
+        "Google Sheets",
+        "OpenAI",
+        "Pinecone",
+        "Slack"
+      ],
+      "documentation_path": "docs/workflows/social_media/youtube_comment_summarizer.md",
+      "source": {
+        "type": "adapted-from-upstream",
+        "repository": "https://github.com/wassupjay/n8n-free-templates",
+        "notes": "Imported/adapted templates; upstream repository currently has no declared GitHub license metadata."
+      },
+      "tested_date": null,
+      "risk_flags": [
+        "ai-generated-output"
+      ],
+      "webhook_paths": [
+        "youtube-comment-summarizer"
+      ],
+      "node_count": 12
+    }
+  ]
+}
